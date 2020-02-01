@@ -5,7 +5,7 @@ public class FollowPlayer : MonoBehaviour
 
   public Transform player;
   public Vector3 offset;
-  public float leftBound = -11f;
+  public float leftBound = -10f;
   public float rightBound = 7f;
   // Update is called once per frame
   void Update()
