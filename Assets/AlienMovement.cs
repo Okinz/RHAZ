@@ -3,16 +3,21 @@
 public class AlienMovement : MonoBehaviour
 {
   public Rigidbody2D rb;
-  private float thrust = 5.0f;
+  public Transform rocket;
+  //public Vector2 position;
+  private float speed = 3f;
   // Start is called before the first frame update
   void Start()
   {
-
+    //position = gameObject.transform.position;
   }
 
   // Update is called once per frame
   void FixedUpdate()
   {
-    rb.AddForce(Vector2.left * thrust);
+    float step = speed * Time.deltaTime;
+    // //transform.position = Vector2.MoveTowards()
+    transform.position = Vector2.MoveTowards(transform.position, rocket.position, step);
+
   }
 }
