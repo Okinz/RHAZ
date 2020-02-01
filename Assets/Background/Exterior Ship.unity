@@ -296,10 +296,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aedb6f632be294d15ae61477707c6d27, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  player: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1707817129}
+  offset: {x: 0, y: 0, z: -10}
+  leftBound: {x: -11, y: 1.4, z: -10}
 --- !u!1 &345868558
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +392,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1102429485}
   - component: {fileID: 1102429484}
-  - component: {fileID: 1102429486}
   m_Layer: 0
   m_Name: best spacesh
   m_TagString: Untagged
@@ -463,29 +463,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1102429486
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1388501106}
-  m_Layer: 0
-  m_Name: CeilingCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &1388501106
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1388501105}
+  m_GameObject: {fileID: 1882870213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0174, y: 0.1419, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -838,8 +822,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669d514196c404280986cc8e95f4ab68, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   controller: {fileID: 1707817130}
   runSpeed: 40
 --- !u!50 &1707817126
@@ -965,8 +949,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9dceb0c7515224735af0c51a54fd0da3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_JumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
@@ -999,6 +983,22 @@ CircleCollider2D:
   m_Offset: {x: -0.01, y: -0.088}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!1 &1882870213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1388501106}
+  m_Layer: 0
+  m_Name: Recovery GameObject (1388501106)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1885862161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,8 +3024,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b47595cc9453f439c98586a9e31083ae, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   rb: {fileID: 0}
   rocket: {fileID: 1102429485}
 --- !u!1 &2137326904
