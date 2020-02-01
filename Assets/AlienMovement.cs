@@ -1,19 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AlienMovement : MonoBehaviour
 {
-  public Rigidbody rb;
+  public Rigidbody2D rb;
+  public Transform rocket;
+  //public Vector2 position;
+  private float speed = 3f;
   // Start is called before the first frame update
   void Start()
   {
-
+    //position = gameObject.transform.position;
   }
 
   // Update is called once per frame
   void FixedUpdate()
   {
-    rb.AddForce(1000 * Time.deltaTime, 0, 0);
+    float step = speed * Time.deltaTime;
+    // //transform.position = Vector2.MoveTowards()
+    transform.position = Vector2.MoveTowards(transform.position, rocket.position, step);
+
   }
 }
