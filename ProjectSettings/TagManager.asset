@@ -47,6 +47,9 @@ TagManager:
   - name: SpaceShip Layer
     uniqueID: 1393305445
     locked: 0
+  - name: Door Layer
+    uniqueID: 2380604205
+    locked: 0
   - name: Ground Tile Layer
     uniqueID: 1406941579
     locked: 0
