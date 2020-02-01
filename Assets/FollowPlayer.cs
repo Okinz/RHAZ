@@ -5,20 +5,23 @@ public class FollowPlayer : MonoBehaviour
 
   public Transform player;
   public Vector3 offset;
-  public Vector3 leftBound = new Vector3(-11f, -1.4f, -10f);
+  public float leftBound = -11f;
+  public float rightBound = 7f;
   // Update is called once per frame
   void Update()
   {
-    Debug.Log(player.position);
     Debug.Log(player.position + offset);
-    if (Equals((player.position + offset), leftBound))
+    if ((player.position + offset).x < leftBound)
     {
-      transform.position = player.position;
+      transform.position = transform.position;
+    }
+    else if ((player.position + offset).x > rightBound)
+    {
+      transform.position = transform.position;
     }
     else
     {
       transform.position = player.position + offset;
     }
-
   }
 }
