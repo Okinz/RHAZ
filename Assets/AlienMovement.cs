@@ -12,8 +12,8 @@ public class AlienMovement : MonoBehaviour
   }
 
   // Update is called once per frame
-  void Update()
+  void FixedUpdate()
   {
-    rb.AddForce(0, 2000 * Time.deltaTime, 0);
+    rb.AddForce(1000 * Time.deltaTime, 0, 0);
   }
 }
