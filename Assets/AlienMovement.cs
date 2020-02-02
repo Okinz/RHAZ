@@ -4,7 +4,6 @@ public class AlienMovement : MonoBehaviour
 {
 
   public Animator animator;
-  public GameObject alien;
   public Rigidbody2D rb;
   public Transform rocket;
   private float speed = 3f;
@@ -15,7 +14,6 @@ public class AlienMovement : MonoBehaviour
   void Start()
   {
     localScale = transform.localScale;
-    InvokeRepeating("EnemySpawner", 0.5f, 0.5f);
   }
 
   // Update is called once per frame
@@ -23,12 +21,6 @@ public class AlienMovement : MonoBehaviour
   {
     float step = speed * Time.deltaTime;
     transform.position = Vector2.MoveTowards(transform.position, rocket.position, step);
-    animator.SetFloat("Speed", Mathf.Abs(speed));
-
-  }
-  void EnemySpawner()
-  {
-    Instantiate(alien);
   }
 
   void CheckWhereToFace()
