@@ -17,14 +17,12 @@ public class enemy : MonoBehaviour
         if(health <= 0)
         {
             Die();
-
         }
     }
 
     void Die ()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        
         Destroy(gameObject);
     }
 

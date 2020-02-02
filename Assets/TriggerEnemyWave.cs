@@ -7,7 +7,7 @@ public class TriggerEnemyWave : MonoBehaviour
   public GameObject alien;
   public float randX;
   public Vector2 whereToSpawn;
-  private float repeatRate = 2f;
+  private float repeatRate = .2f;
 
   // Start is called before the first frame update
   void Start()
@@ -26,7 +26,7 @@ public class TriggerEnemyWave : MonoBehaviour
     if (other.gameObject.tag == "Player")
     {
       InvokeRepeating("EnemySpawner", 0.5f, repeatRate);
-      Destroy(gameObject, 10);
+      Destroy(gameObject, 1);
       gameObject.GetComponent<BoxCollider>().enabled = false;
     }
   }
