@@ -139,11 +139,8 @@ public class CharacterController2D : MonoBehaviour
 		m_FacingRight = !m_FacingRight;
 
 		// Multiply the player's x local scale by -1.
-		// Vector3 theScale = transform.localScale;
-		// theScale.x *= -1;
-		// transform.localScale = theScale;
-
-		// New Flip for firing a weapon
-		transform.Rotate (0f, 180f, 0f);
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
 	}
 }
