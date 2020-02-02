@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2023540975168541376}
   - component: {fileID: 5143280838100823983}
   - component: {fileID: 3729924686424610666}
+  - component: {fileID: 858510481560935494}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,3 +139,19 @@ MonoBehaviour:
   rb: {fileID: 2023540975168541376}
   impactEffect: {fileID: 584173480885943199, guid: cce1027757b789a49bfc3a40aa0c2484,
     type: 3}
+--- !u!58 &858510481560935494
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023540975168541389}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.03
