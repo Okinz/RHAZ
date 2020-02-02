@@ -1,49 +1,58 @@
 fileFormatVersion: 2
-guid: 1fe43949fd12542e1a5ba964a44597ab
+guid: aff31c2ff4cca4ea19272b4b11bab2e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: AstronautSpriteAtlas_0
+      213: 6522254428108054527
+    second: Walking Collect_0
   - first:
-      213: 21300002
-    second: AstronautSpriteAtlas_1
+      213: 8667203988240049947
+    second: Walking Collect_1
   - first:
-      213: 21300004
-    second: AstronautSpriteAtlas_2
+      213: 8348489567810773203
+    second: Walking Collect_2
   - first:
-      213: 21300006
-    second: AstronautSpriteAtlas_3
+      213: 8891498740407711770
+    second: Walking Collect_3
   - first:
-      213: 21300008
-    second: AstronautSpriteAtlas_4
+      213: 4146879787793876778
+    second: Walking Collect_4
   - first:
-      213: 21300010
-    second: AstronautSpriteAtlas_5
+      213: 1591061797457978433
+    second: Walking Collect_5
   - first:
-      213: 21300012
-    second: AstronautSpriteAtlas_6
+      213: -7459120663557114808
+    second: Walking Collect_6
   - first:
-      213: 21300014
-    second: AstronautSpriteAtlas_7
+      213: -5835565423988832671
+    second: Walking Collect_7
   - first:
-      213: 21300016
-    second: AstronautSpriteAtlas_8
+      213: 6575604746627430948
+    second: Walking Collect_8
   - first:
-      213: 21300018
-    second: AstronautSpriteAtlas_9
+      213: -8085992630053506406
+    second: Walking Collect_9
   - first:
-      213: 21300020
-    second: AstronautSpriteAtlas_10
+      213: -4970059321186509775
+    second: Walking Collect_10
   - first:
-      213: 21300022
-    second: AstronautSpriteAtlas_11
+      213: 6395773924805993888
+    second: Walking Collect_11
   - first:
-      213: 21300024
-    second: AstronautSpriteAtlas_12
+      213: 6056931938059119825
+    second: Walking Collect_12
   - first:
-      213: 21300026
-    second: AstronautSpriteAtlas_13
+      213: -7076636925374764468
+    second: Walking Collect_13
+  - first:
+      213: 6202335848422080107
+    second: Walking Collect_14
+  - first:
+      213: -5629259232505470958
+    second: Walking Collect_15
+  - first:
+      213: 7181218283581839490
+    second: Walking Collect_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -111,7 +120,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -123,7 +132,31 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -135,102 +168,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_0
+      name: Walking Collect_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a44b56cdca7674f1f82102452706ef2c
-      internalID: 21300000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AstronautSpriteAtlas_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc22b74e7e1f14d329d723e450452b73
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AstronautSpriteAtlas_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 224
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 2.7997413, y: -0.6369505}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b88e0b35c7938467fbc3f82339b4fea2
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AstronautSpriteAtlas_3
-      rect:
-        serializedVersion: 2
-        x: 96
         y: 223
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 2, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8370f94aeeac749f2a45ff6793e4fd91
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AstronautSpriteAtlas_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,18 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb5ea39cc4a14d5b83c8e09f0a87ff8
-      internalID: 21300008
+      spriteID: fff591298d3b38a50800000000000000
+      internalID: 6522254428108054527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_5
+      name: Walking Collect_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 223
         width: 32
         height: 32
       alignment: 0
@@ -259,39 +208,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e6a61cdde8e14c5b9834a90ccc3c050
-      internalID: 21300010
+      spriteID: b17a5e24b18184870800000000000000
+      internalID: 8667203988240049947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_6
+      name: Walking Collect_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 223
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 7.270026, y: -16.218346}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40c69fa66c7bf4d4bbf2769a43e2928e
-      internalID: 21300012
+      spriteID: 3d06a6c970bcbd370800000000000000
+      internalID: 8348489567810773203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_7
+      name: Walking Collect_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18b5d6cef2f46b70800000000000000
+      internalID: 8891498740407711770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Collect_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 191
         width: 32
         height: 32
       alignment: 0
@@ -301,18 +271,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e970756d3aca4720bc2299de759fdb9
-      internalID: 21300014
+      spriteID: a2783b5223dac8930800000000000000
+      internalID: 4146879787793876778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_8
+      name: Walking Collect_5
       rect:
         serializedVersion: 2
         x: 32
-        y: 160
+        y: 191
         width: 32
         height: 32
       alignment: 0
@@ -322,18 +292,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57567d307a95243c9aac7fae4ae2ada3
-      internalID: 21300016
+      spriteID: 1446d256646941610800000000000000
+      internalID: 1591061797457978433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_9
+      name: Walking Collect_6
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
+        y: 191
         width: 32
         height: 32
       alignment: 0
@@ -343,18 +313,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f83f9e298f3994492ad41753ebec5a1e
-      internalID: 21300018
+      spriteID: 844f6efc641eb7890800000000000000
+      internalID: -7459120663557114808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_10
+      name: Walking Collect_7
       rect:
         serializedVersion: 2
         x: 96
-        y: 160
+        y: 191
         width: 32
         height: 32
       alignment: 0
@@ -364,18 +334,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd888de021247493685c994adf3ec8f0
-      internalID: 21300020
+      spriteID: 166089f3a28e30fa0800000000000000
+      internalID: -5835565423988832671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_11
+      name: Walking Collect_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 158
         width: 32
         height: 32
       alignment: 0
@@ -385,18 +355,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a8d0993f4e614215a58ca4c9e24910f
-      internalID: 21300022
+      spriteID: 42ab9129dad314b50800000000000000
+      internalID: 6575604746627430948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_12
+      name: Walking Collect_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92fb3d5b88c8cf80800000000000000
+      internalID: -8085992630053506406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Collect_10
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 127
         width: 32
         height: 32
       alignment: 0
@@ -406,18 +397,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ae6211b4ee2d45beab2fc9b73172c97
-      internalID: 21300024
+      spriteID: 13c1f00416dc60bb0800000000000000
+      internalID: -4970059321186509775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AstronautSpriteAtlas_13
+      name: Walking Collect_11
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 127
         width: 32
         height: 32
       alignment: 0
@@ -427,8 +418,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 414539654654e46b3b7523e8b2b7eae4
-      internalID: 21300026
+      spriteID: 0a564c39f7a52c850800000000000000
+      internalID: 6395773924805993888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Collect_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc6bb4b18b8e0450800000000000000
+      internalID: 6056931938059119825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Collect_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4aef92c53cbacd90800000000000000
+      internalID: -7076636925374764468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Collect_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 187
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e7edeb79f131650800000000000000
+      internalID: 6202335848422080107
       vertices: []
       indices: 
       edges: []
@@ -436,7 +490,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fdc5ed23ffb634782b464dd853419787
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
