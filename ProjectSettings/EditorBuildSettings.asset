@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Background/StartMenu.unity
+    guid: cff3fac765840894b97ffa7670b3263b
+  - enabled: 1
     path: Assets/Background/Exterior Ship.unity
     guid: e4a130b2f1b6ec74f9e7538a00c6de6c
   - enabled: 1

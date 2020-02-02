@@ -20,15 +20,17 @@ public class bullet : MonoBehaviour
   {
     if (hitInfo.gameObject.tag == "Enemy" || hitInfo.gameObject.tag == "Wall" || hitInfo.gameObject.tag == "Bullet")
     {
-      enemy sdd = hitInfo.GetComponent<enemy>();
-      if (sdd != null)
-      {
-        sdd.TakeDamage(damage);
-      }
+        
+        enemy sdd = hitInfo.GetComponent<enemy>();
+        if(sdd != null)
+        {
+            sdd.TakeDamage(damage);
+        }
+        
 
-      Instantiate(impactEffect, transform.position, transform.rotation);
+        Instantiate(impactEffect, transform.position, transform.rotation);
 
-      Destroy(impactEffect);
+        Destroy(impactEffect);
     }
 
   }

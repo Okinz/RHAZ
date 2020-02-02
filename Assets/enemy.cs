@@ -15,7 +15,6 @@ public class enemy : MonoBehaviour
     if (health <= 0)
     {
       Die();
-
     }
   }
 
