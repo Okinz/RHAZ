@@ -9,54 +9,57 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  -
+  - 
   - Water
   - UI
-  -
-  -
-  - Background
-  - Foreground
-  - Player
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
-  - name: Space Layer
-    uniqueID: 1081906093
-    locked: 0
-  - name: Scenery Layer
-    uniqueID: 3338090925
-    locked: 0
-  - name: SpaceShip Layer
-    uniqueID: 1393305445
-    locked: 0
-  - name: Door Layer
-    uniqueID: 2380604205
-    locked: 0
-  - name: Ground Tile Layer
-    uniqueID: 1406941579
-    locked: 0
-  - name: Player Layer
-    uniqueID: 3555915603
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 535718877
+    locked: 0
+  - name: Scenery
+    uniqueID: 3251856297
+    locked: 0
+  - name: SpaceShip
+    uniqueID: 3801444595
+    locked: 0
+  - name: Door
+    uniqueID: 2941967749
+    locked: 0
+  - name: Tile
+    uniqueID: 3454607931
+    locked: 0
+  - name: Monsters
+    uniqueID: 1743639107
+    locked: 0
+  - name: Player
+    uniqueID: 3751959629
     locked: 0
