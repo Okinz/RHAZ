@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Slope
   - Enemy
+  - PowerBall
+  - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX

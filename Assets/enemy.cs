@@ -4,27 +4,26 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
-    
+  public int health = 100;
+  public GameObject powerFixBall;
+  public GameObject deathEffect;
 
-    public int health = 100;
+  public void TakeDamage(int damage)
+  {
+    health -= damage;
 
-    public GameObject deathEffect;
-
-    public void TakeDamage (int damage)
+    if (health <= 0)
     {
-        health -= damage;
-
-        if(health <= 0)
-        {
-            Die();
-        }
+      Die();
     }
+  }
 
-    void Die ()
-    {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
-    }
+  void Die()
+  {
+    Instantiate(deathEffect, transform.position, Quaternion.identity);
+    Instantiate(powerFixBall, transform.position, Quaternion.identity);
+    Destroy(gameObject);
+  }
 
 
 }
