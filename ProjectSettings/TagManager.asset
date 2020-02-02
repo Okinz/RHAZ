@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Slope
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -39,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: Background
     uniqueID: 535718877
     locked: 0
@@ -59,7 +63,4 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3751959629
-    locked: 0
-  - name: Default
-    uniqueID: 0
     locked: 0

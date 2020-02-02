@@ -27,7 +27,7 @@ public class TriggerEnemyWave : MonoBehaviour
     {
       InvokeRepeating("EnemySpawner", 0.5f, repeatRate);
       Destroy(gameObject, 1);
-      gameObject.GetComponent<BoxCollider>().enabled = false;
+      gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
   }
   void EnemySpawner()
