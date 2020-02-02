@@ -18,15 +18,19 @@ public class bullet : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
-        enemy sdd = hitInfo.GetComponent<enemy>();
-        if(sdd != null)
+        if(hitInfo.gameObject.tag == "Enemy")
         {
-            sdd.TakeDamage(damage);
+            enemy sdd = hitInfo.GetComponent<enemy>();
+            if(sdd != null)
+            {
+                sdd.TakeDamage(damage);
+            }
         }
 
         Instantiate(impactEffect, transform.position, transform.rotation);
 
         Destroy(gameObject);
+        
     }
 
 }
