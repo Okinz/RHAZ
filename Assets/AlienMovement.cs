@@ -2,6 +2,8 @@
 
 public class AlienMovement : MonoBehaviour
 {
+
+  public Animator animator;
   public Rigidbody2D rb;
   public Transform rocket;
   private float speed = 3f;
