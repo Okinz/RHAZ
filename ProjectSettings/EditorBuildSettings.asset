@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Background/Exterior Ship.unity
+    guid: e4a130b2f1b6ec74f9e7538a00c6de6c
+  - enabled: 1
+    path: Assets/Background/Interior.unity
+    guid: 33ccbce24a7c1584f84575d72e7bb7eb
   m_configObjects: {}
