@@ -2,22 +2,16 @@
 
 public class AlienMovement : MonoBehaviour
 {
-  public GameObject alien;
   public Rigidbody2D rb;
   public Transform rocket;
   private float speed = 3f;
   public float dirX;
-  public Vector2 whereToSpawn;
-  public float randX;
   public bool facingRight = false;
   public Vector3 localScale;
-  private float repeatRate = 3f;
   // Start is called before the first frame update
   void Start()
   {
     localScale = transform.localScale;
-    InvokeRepeating("EnemySpawner", 0.5f, repeatRate);
-    Destroy(gameObject, 10);
   }
 
   // Update is called once per frame
@@ -25,11 +19,6 @@ public class AlienMovement : MonoBehaviour
   {
     float step = speed * Time.deltaTime;
     transform.position = Vector2.MoveTowards(transform.position, rocket.position, step);
-
-  }
-  void EnemySpawner()
-  {
-    Instantiate(alien);
   }
 
   void CheckWhereToFace()
