@@ -2,6 +2,8 @@
 
 public class AlienMovement : MonoBehaviour
 {
+
+  public Animator animator;
   public GameObject alien;
   public Rigidbody2D rb;
   public Transform rocket;
@@ -21,6 +23,7 @@ public class AlienMovement : MonoBehaviour
   {
     float step = speed * Time.deltaTime;
     transform.position = Vector2.MoveTowards(transform.position, rocket.position, step);
+    animator.SetFloat("Speed", Mathf.Abs(speed));
 
   }
   void EnemySpawner()
