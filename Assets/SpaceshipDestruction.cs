@@ -27,7 +27,6 @@ public class SpaceshipDestruction : MonoBehaviour
     if (other.gameObject.tag == "Enemy")
     {
       shipPoints -= 10;
-      Debug.Log(shipPoints);
     }
     if (shipPoints == 0)
     {
