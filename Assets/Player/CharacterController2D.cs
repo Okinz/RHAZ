@@ -36,12 +36,12 @@ public class CharacterController2D : MonoBehaviour
 
 		GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
 
-        if (objs.Length > 1)
+        /*if (objs.Length > 1)
         {
-            Destroy(this.gameObject);
+            DestroyImmediate(this.gameObject, true);
         }
-
-        DontDestroyOnLoad(transform.gameObject);
+		*/
+        //DontDestroyOnLoad(transform.gameObject);
 
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();

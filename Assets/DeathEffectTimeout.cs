@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeathEffectTimeout : MonoBehaviour
 {
-  public float timeout = 1f;
+  public float timeout = 0.3f;
   public float createdTime;
   // Start is called before the first frame update
   void Start()

@@ -18,17 +18,19 @@ public class bullet : MonoBehaviour
 
   void OnTriggerEnter2D(Collider2D hitInfo)
   {
-    if (hitInfo.gameObject.tag == "Enemy" || hitInfo.gameObject.tag == "Wall" || hitInfo.gameObject.tag == "Bullet")
+    if (hitInfo.gameObject.tag == "Enemy" || hitInfo.gameObject.tag == "Wall" || hitInfo.gameObject.tag == "Bullet" || hitInfo.gameObject.tag == "Slope")
     {
-      enemy sdd = hitInfo.GetComponent<enemy>();
-      if (sdd != null)
+      Debug.Log(hitInfo.name);
+      Enemy enemy = hitInfo.GetComponent <Enemy> ();
+      if (enemy != null)
       {
-        sdd.TakeDamage(damage);
+        enemy.TakeDamage(damage);
       }
 
       Instantiate(impactEffect, transform.position, transform.rotation);
-
-      Destroy(impactEffect);
+      
+      Destroy(gameObject);
+      
     }
 
   }
