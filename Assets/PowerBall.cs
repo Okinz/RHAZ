@@ -6,7 +6,7 @@ public class PowerBall : MonoBehaviour
 {
   
   public Rigidbody2D rb;
-
+  
 
   
   void Start()
