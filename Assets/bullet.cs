@@ -20,7 +20,7 @@ public class bullet : MonoBehaviour
   {
     if (hitInfo.gameObject.tag == "Enemy" || hitInfo.gameObject.tag == "Wall" || hitInfo.gameObject.tag == "Bullet" || hitInfo.gameObject.tag == "Slope")
     {
-      Debug.Log(hitInfo.name);
+      
       Enemy enemy = hitInfo.GetComponent <Enemy> ();
       if (enemy != null)
       {
