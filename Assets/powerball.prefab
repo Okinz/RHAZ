@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 229529098593535255}
   - component: {fileID: 2416481665530489923}
   - component: {fileID: -3293010538765259183}
+  - component: {fileID: 3145676515073772704}
   m_Layer: 0
   m_Name: powerball
   m_TagString: PowerBall
@@ -151,3 +152,22 @@ CircleCollider2D:
   m_Offset: {x: -0.0010355314, y: -0.01}
   serializedVersion: 2
   m_Radius: 0.05493784
+--- !u!95 &3145676515073772704
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8704576476417908178}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b3608c4e9cdf405282e1b6769d553d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
