@@ -7,10 +7,15 @@ public class FollowPlayer : MonoBehaviour
   public Vector3 offset;
   public float leftBound = -10f;
   public float rightBound = 7f;
+
+  void Start()
+  {
+    DontDestroyOnLoad(transform.gameObject);
+  }
+
   // Update is called once per frame
   void Update()
   {
-    Debug.Log(player.position + offset);
     if ((player.position + offset).x < leftBound)
     {
       transform.position = transform.position;

@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour {
         
         public CharacterController2D controller;
         public Animator animator;
+        
 
         public float runSpeed = 40f;
 
@@ -33,8 +34,8 @@ public class PlayerMovement : MonoBehaviour {
                  {
                         crouch = false;
                  }
-
           }
+
           
           public void OnLanding() {
                 animator.SetBool("IsJumping", false);
